@@ -1,0 +1,11 @@
+.calculator-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator-div {
+    border: 1px solid blue;
+    width: 400px;
+    height: 500px;
+}
