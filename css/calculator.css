@@ -24,6 +24,7 @@
 }
 .calculator-display input {
     width: 92%;
+    /* pointer-events: none; */
 }
 .calculator-display input:nth-child(1) {
     height: 3rem;

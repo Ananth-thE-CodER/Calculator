@@ -4,6 +4,7 @@
     <head>
         <title>Calculator</title>
         <link rel="stylesheet" href="./css/calculator.css">
+        <script src="./js/operations.js" defer></script>
     </head>
 
     <body>
@@ -12,27 +13,27 @@
                 <div class="calculator-div">
                     <div class="calculator-display-div">
                         <div class="calculator-display">
-                            <input class="display-input">
-                            <input class="display-input">
+                            <input id="exp-input" class="display-input">
+                            <input id="res-input" class="display-input">
                         </div>
                     </div>
                     <div class="calculator-keys-div">
                         <div class="keys-div1">
-                            <span id="clear_all">C</span>
-                            <span id="clear-one">&lt;=</span>
-                            <span id="percentage">%</span>
-                            <span id="no-7">7</span>
-                            <span id="no-8">8</span>
-                            <span id="no-9">9</span>
-                            <span id="no-4">4</span>
-                            <span id="no-5">5</span>
-                            <span id="no-6">6</span>
-                            <span id="no-1">1</span>
-                            <span id="no-2">2</span>
-                            <span id="no-3">3</span>
-                            <span id="bracket">()</span>
-                            <span id="no-0">0</span>
-                            <span id="decimal">.</span>
+                            <span class="specials clearall" id="clear_all">C</span>
+                            <span class="specials backspace" id="clear-one">&lt;=</span>
+                            <span class="specials percent" id="percentage">%</span>
+                            <span class="num-key" id="no-7">7</span>
+                            <span class="num-key" id="no-8">8</span>
+                            <span class="num-key" id="no-9">9</span>
+                            <span class="num-key" id="no-4">4</span>
+                            <span class="num-key" id="no-5">5</span>
+                            <span class="num-key" id="no-6">6</span>
+                            <span class="num-key" id="no-1">1</span>
+                            <span class="num-key" id="no-2">2</span>
+                            <span class="num-key" id="no-3">3</span>
+                            <span class="specials brackets" id="bracket">()</span>
+                            <span class="num-key" id="no-0">0</span>
+                            <span class="specials decimal" id="decimal">.</span>
                         </div>
                         <div class="keys-div2">
                             <span id="division">/</span>
